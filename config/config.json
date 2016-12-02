@@ -1,0 +1,14 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "geekseek_db",
+    "host": "localhost",
+    "dialect": "mysql",
+    "renderJSON": "0"
+  },
+  "production": {
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
+  }
+}
